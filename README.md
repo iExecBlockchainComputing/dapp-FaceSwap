@@ -1,10 +1,10 @@
 # dapp-FaceSwap
 
-##Prerequisites
+## Prerequisites
 
 iExec installation and good iExec infrastructure understanding 
 
-##Run the test locally
+## Run the test locally
 
 ```
 ./localtest.sh
@@ -17,7 +17,7 @@ https://explorer.iex.ec/bellecour/app/0xcc4838aD4A3d2607F6bD3ba139F1a531d3c56Fa2
 https://explorer.iex.ec/goerli/app/0xa4a046a8992904ad4f2D2D7dbEf365521B77b2Eb
 ```
 
-##App run script on Goerli and Bellecour
+## App run script on Goerli and Bellecour
 
 ```
 ./apprun_bellecour.sh
