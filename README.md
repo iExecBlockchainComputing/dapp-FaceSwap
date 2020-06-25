@@ -19,6 +19,7 @@ https://explorer.iex.ec/goerli/app/0xa4a046a8992904ad4f2D2D7dbEf365521B77b2Eb
 
 ##App run script on Goerli and Bellecour
 
+```
 ./apprun_bellecour.sh
 ./apprun_goerli.sh 
-
+```
