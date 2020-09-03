@@ -41,9 +41,9 @@ echo "start program"
 cd FaceSwap-master/
 python main.py --src $FILE1 --dst $FILE2 --out /iexec_out/output.jpg --correct_color --no_debug_window
 echo "end program" 
-echo "CREATING determinism.iexec IN /iexec_out/";
-echo $args$IEXEC_DATASET_FILENAME$IEXEC_NB_INPUT_FILES > /iexec_out/determinism.iexec && echo "done";
-
+echo "CREATING determinism.txt IN /iexec_out/";
+echo "ok" > /iexec_out/determinism.txt && echo "done";
+echo "{ \"deterministic-output-path\" : \"/iexec_out/determinism.txt\" }" > /iexec_out/computed.json
 echo "OUTPUT DIRECTORY FINAL CONTENT";
 ls -a /iexec_out;
 echo "FINISH";
